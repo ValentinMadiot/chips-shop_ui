@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -27,45 +27,45 @@
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav_logo">CHIPS</a>
+        <a href="#" class="nav__logo">CHIPS</a>
 
-        <div class="nav_menu" id="nav_menu">
-          <ul class="nav_list">
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
             <li>
-              <a href="#home" class="nav_link active_link">Accueil</a>
+              <a href="#home" class="nav__link active__link">Accueil</a>
             </li>
             <li>
-              <a href="#favorites" class="nav_link">Favoris</a>
+              <a href="#favorites" class="nav__link">Favoris</a>
             </li>
             <li>
-              <a href="#care" class="nav_link">Santé</a>
+              <a href="#care" class="nav__link">Santé</a>
             </li>
             <li>
-              <a href="#products" class="nav_link">Produits</a>
+              <a href="#products" class="nav__link">Produits</a>
             </li>
             <li>
-              <a href="#contact" class="nav_link">Contact</a>
+              <a href="#contact" class="nav__link">Contact</a>
             </li>
           </ul>
 
-          <div class="nav_close" id="nav_close">
+          <div class="nav__close" id="nav__close">
             <i class="ri-close-large-line"></i>
           </div>
 
-          <div class="nav_social">
-            <a href="#" target="_blank" class="nav_social_link">
+          <div class="nav__social">
+            <a href="#" target="_blank" class="nav__social_link">
               <i class="ri-facebook-circle-fill"></i>
             </a>
-            <a href="#" target="_blank" class="nav_social_link">
+            <a href="#" target="_blank" class="nav__social_link">
               <i class="ri-instagram-fill"></i>
             </a>
-            <a href="#" target="_blank" class="nav_social_link">
+            <a href="#" target="_blank" class="nav__social_link">
               <i class="ri-twitter-x-fill"></i>
             </a>
           </div>
         </div>
 
-        <div class="nav_toggle" id="nav_toggle">
+        <div class="nav__toggle" id="nav__toggle">
           <i class="ri-menu-3-line"></i>
         </div>
       </nav>
@@ -74,10 +74,149 @@
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
-      <section class="home section" id="home"></section>
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              GRIGNOTER <br />
+              SANS <br />
+              LIMITES
+            </h1>
+
+            <p class="home__description">
+              Quand tu as faim et pas le temps de cuisiner, les snacks sont la
+              solution parfaite, toujours prêts pour les petites faims de midi.
+            </p>
+
+            <img
+              src="assets/img/meat.png"
+              class="home__meat"
+              alt="image meat" />
+
+            <div class="home__buttons">
+              <a href="#" class="button">Grignoter</a>
+              <a href="#" class="button button__ghost">Acheter</a>
+            </div>
+          </div>
+
+          <div class="home__images">
+            <div class="home__circle">
+              <div class="home__subcircle"></div>
+            </div>
+
+            <img
+              src="assets/img/home-chips.png"
+              alt="Home image"
+              class="home__img" />
+
+            <img
+              src="assets/img/chips-1.png"
+              alt="Home image chips"
+              class="home__chips_1" />
+            <img
+              src="assets/img/chips-2.png"
+              alt="Home image chips"
+              class="home__chips_2" />
+            <img
+              src="assets/img/chips-3.png"
+              alt="Home image chips"
+              class="home__chips_3" />
+
+            <img
+              src="assets/img/tomato-1.png"
+              alt="Home image tomato"
+              class="home__tomato_1" />
+            <img
+              src="assets/img/tomato-2.png"
+              alt="Home image tomato"
+              class="home__tomato_2" />
+
+            <img
+              src="assets/img/leaf-3.png"
+              alt="Home image leaf"
+              class="home__leaf" />
+          </div>
+        </div>
+      </section>
 
       <!--==================== FAVORITES ====================-->
-      <section class="favorite section" id="favorites"></section>
+      <section class="favorites section" id="favorites">
+        <div class="favorite__container container grid">
+          <div class="favorite__data">
+            <h2 class="section__title">
+              DÉCOUVRE TES <br />
+              SAVEURS PRÉFÉRÉES
+            </h2>
+
+            <p class="favorite__description">
+              Goûte des saveurs exotiques ou des garnitures délicieuses. Nous
+              avons rassemblé des recettes de snacks du monde entier rien que
+              pour toi.
+            </p>
+
+            <img
+              src="assets/img/cheese.png"
+              alt="Image"
+              class="favorite__cheese_1" />
+            <img
+              src="assets/img/cheese.png"
+              alt="Image"
+              class="favorite__cheese_2" />
+          </div>
+
+          <div class="favorite__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/favorite-chips-1.png"
+                  alt="Image"
+                  class="favorite__img" />
+
+                <img
+                  src="assets/img/leaf-1.png"
+                  alt="Image"
+                  class="favorite__leaf_1" />
+                <img
+                  src="assets/img/leaf-2.png"
+                  alt="Image"
+                  class="favorite__leaf_2" />
+              </article>
+
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/favorite-chips-2.png"
+                  alt="Image"
+                  class="favorite__img" />
+
+                <img
+                  src="assets/img/leaf-1.png"
+                  alt="Image"
+                  class="favorite__leaf_1" />
+                <img
+                  src="assets/img/leaf-2.png"
+                  alt="Image"
+                  class="favorite__leaf_2" />
+              </article>
+
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/favorite-chips-3.png"
+                  alt="Image"
+                  class="favorite__img" />
+
+                <img
+                  src="assets/img/leaf-1.png"
+                  alt="Image"
+                  class="favorite__leaf_1" />
+                <img
+                  src="assets/img/leaf-2.png"
+                  alt="Image"
+                  class="favorite__leaf_2" />
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--==================== CARE ====================-->
       <section class="care section" id="care"></section>
@@ -101,7 +240,7 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
