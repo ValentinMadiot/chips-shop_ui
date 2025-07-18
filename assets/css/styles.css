@@ -309,26 +309,26 @@ img {
   -webkit-filter: var(--shadow-img);
 }
 
-.home__chips_1 {
+.home__chips-1 {
   right: -0.5rem;
 }
 
-.home__chips_2 {
+.home__chips-2 {
   bottom: -0.75rem;
   right: 0.5rem;
 }
 
-.home__chips_3 {
+.home__chips-3 {
   top: 0.25rem;
   left: -0.5rem;
 }
 
-.home__tomato_1 {
+.home__tomato-1 {
   top: -1.5rem;
   right: 2.5rem;
 }
 
-.home__tomato_2 {
+.home__tomato-2 {
   left: 3.5rem;
   bottom: -1.4rem;
 }
@@ -389,20 +389,20 @@ img {
   text-align: center;
 }
 
-.favorite__cheese_1,
-.favorite__cheese_2 {
+.favorite__cheese-1,
+.favorite__cheese-2 {
   width: 40px;
   position: absolute;
   opacity: 0.5;
 }
 
-.favorite__cheese_1 {
+.favorite__cheese-1 {
   top: -1.5rem;
   right: -1rem;
   rotate: -15deg;
 }
 
-.favorite__cheese_2 {
+.favorite__cheese-2 {
   bottom: -2.25rem;
   left: -0.75rem;
   transform: scaleX(-1) rotate(45deg);
@@ -427,8 +427,8 @@ img {
   -o-transition: scale 0.4s, filter 0.4s;
 }
 
-.favorite__leaf_1,
-.favorite__leaf_2 {
+.favorite__leaf-1,
+.favorite__leaf-2 {
   width: 70px;
   position: absolute;
   filter: var(--shadow-img);
@@ -441,12 +441,12 @@ img {
   -o-transition: scale 0.4s 0.1s;
 }
 
-.favorite__leaf_1 {
+.favorite__leaf-1 {
   top: -1rem;
   right: -0.5rem;
 }
 
-.favorite__leaf_2 {
+.favorite__leaf-2 {
   bottom: -1rem;
   left: -0.5rem;
 }
@@ -463,8 +463,8 @@ img {
   -webkit-filter: var(--shadow-img);
 }
 
-:is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorite__leaf_1,
-:is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorite__leaf_2 {
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorite__leaf-1,
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorite__leaf-2 {
   scale: 1;
 }
 
@@ -646,7 +646,7 @@ img {
   background-color: var(--first-color-darken);
   padding-top: 3.5rem;
   overflow: hidden;
-  /* box-shadow: var(--shadow-card); */
+  box-shadow: var(--shadow-card);
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -987,14 +987,14 @@ img {
     grid-template-columns: 520px;
     row-gap: 4rem;
   }
-  .favorite__cheese__1,
-  .favorite__cheese__2 {
+  .favorite__cheese-1,
+  .favorite__cheese-2 {
     width: 80px;
   }
-  .favorite__cheese__1 {
+  .favorite__cheese-1 {
     right: -18rem;
   }
-  .favorite__cheese__2 {
+  .favorite__cheese-2 {
     left: -18rem;
   }
   .favorite__swiper {
@@ -1004,8 +1004,8 @@ img {
   .favorite__img {
     width: 320px;
   }
-  .favorite__leaf__1,
-  .favorite__leaf__2 {
+  .favorite__leaf-1,
+  .favorite__leaf-2 {
     width: 100px;
   }
 
