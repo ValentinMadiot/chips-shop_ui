@@ -723,8 +723,10 @@ img {
 }
 
 .footer__logo {
-  color: white;
+  color: var(--white-color);
   font: var(--h1-font-size) var(--second-font);
+  justify-self: center;
+  text-shadow: var(--shadow-text);
 }
 
 .footer__content {
